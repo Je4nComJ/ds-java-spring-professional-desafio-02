@@ -12,6 +12,7 @@ public class Participante {
 
     private String nome;
 
+    @Column(unique = true)
     private String email;
 
     public Participante() {
